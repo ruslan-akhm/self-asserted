@@ -7,7 +7,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script src="https://b2clogin.com/static/js/b2c.js"></script>
         <script type="text/javascript">
-            document.getElementById("continue").style.backgroundColor = "red";
+            const btn = document.getElementById("continue");
+
+            if (btn) btn.style.backgroundColor = "red";
         </script>
         <link
             href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap.min.css"
